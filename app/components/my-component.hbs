@@ -1,0 +1,7 @@
+Foo: {{@foo.name}}
+
+{{#unless this.isSaved}}
+  <button type="button" {{on "click" this.save}}>
+    Save
+  </button>
+{{/unless}}
